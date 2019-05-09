@@ -128,7 +128,7 @@ describe("Shopping List", function() {
           expect(res.body).to.deep.equal(updateData);
         })
     );
-  });
+  }); 
 
   // test strategy:
   //  1. GET shopping list items so we can get ID of one
