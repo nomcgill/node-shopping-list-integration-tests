@@ -1,2 +1,9 @@
 node_js: node
 language: node_js
+deploy:
+  provider: heroku
+  api_key:
+    secure: hoWXFHGj7o4fGfFvWvkOqUNPMAASC9ENgKb+ds4XF659UAZZKVbaT7Ugc6vJEnNzb9QwBP2tZR6RLBukBdWhfnOPUGb6TxbtTRoo7QgUkuDMC4TRvG/7lDvCmG4Jk/+Rqwh6ApaR3boWzkSiPjeEIgg3abB72FZAoC4eYDyN82ifV95cNgKNxAdWUcxb5Sb4zKmViMQWqk4K/SJtapbOY8FFU6+xccrDIa4ne1BdF8O3gZiVPu7K/9I9zdps+7A2TkcnU7RoYweZJyJeXdQ25CD9LLRxw4q9jaelIe+YKsj0YX42JI0NvznLU24pLjaJkca8mUJ8/DGJlhne5ArFCzPPzjqJSUsXV01rZfbSt+7tqzmZ38eLc1Zic/1NgGLicORO86btiHBCu4VzQ4GgTdFAt5pe/Nc/QCdE97REXppweyb6covWfDalFi2eei1ED1lydh6I0SdVu/J+uldW6VbdF0EotosuA8DccJoSOMxu98TfV2itPETYRZn/mMWcIclnU2XKNmhQjGHjk7mRyj+GpOs6GbA1LfeWgxX+Y0oOUSTkRWPBvZSEoMRWZ8+l7Th1VDszd5hWQW/M+lLT7iU5ILSXWthaTcqpodWuPtt5R+DeSzWWgLemma1Ya6P4W3fAQydUrnkU1orL9wmCHmKqmvT8WpfV9o7u1suhTiU=
+  app: shrouded-springs-50026
+  on:
+    repo: nomcgill/node-shopping-list-integration-tests
